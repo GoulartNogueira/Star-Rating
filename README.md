@@ -26,6 +26,10 @@ To display a star rating of 2.7 with a star size of 48 pixels, use the following
 
 `https://starrating-beta.vercel.app/2.7/?size=48`
 
+To display a star rating of 2.7 out of 10 stars, use the following URL:
+
+`https://starrating-beta.vercel.app/2.7/?max=10`
+
 ## Examples
 
 | Rating | Star Rating Image                                       | Markdown                                                  |
@@ -35,6 +39,7 @@ To display a star rating of 2.7 with a star size of 48 pixels, use the following
 | 3.3    | ![Star Rating](https://starrating-beta.vercel.app/3.3/) | `![Star Rating](https://starrating-beta.vercel.app/3.3/)` |
 | 4.0    | ![Star Rating](https://starrating-beta.vercel.app/4.0/) | `![Star Rating](https://starrating-beta.vercel.app/4.0/)` |
 | 5.0    | ![Star Rating](https://starrating-beta.vercel.app/5.0/) | `![Star Rating](https://starrating-beta.vercel.app/5.0/)` |
+| 3.3/10 | ![Star Rating](https://starrating-beta.vercel.app/3.3/?max=10) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?max=10)` |
 
 ---
 
@@ -44,15 +49,17 @@ To display a star rating of 2.7 with a star size of 48 pixels, use the following
 | --------- | --------------------------------------------- | ------------- |
 | `rating`  | The rating value to display (between 0 and 5) | 0             |
 | `size`    | The size of each star in pixels               | 24            |
+| `max`     | The maximum number of stars                   | 5             |
 
-| Rating | Size | Star Rating Image                                               | Markdown                                                          |
-| ------ | ---- | --------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 3.3    | 6    | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)  | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)`  |
-| 3.3    | 12   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12)` |
-| 3.3    | 24   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24)` |
-| 3.3    | 32   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32)` |
-| 3.3    | 48   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48)` |
-| 3.3    | 96   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96)` |
+| Rating | Size | Max | Star Rating Image                                               | Markdown                                                          |
+| ------ | ---- | --- | --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 3.3    | 6    | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)  | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)`  |
+| 3.3    | 12   | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12)` |
+| 3.3    | 24   | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24)` |
+| 3.3    | 32   | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32)` |
+| 3.3    | 48   | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48)` |
+| 3.3    | 96   | 5   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96)` |
+| 3.3    | 24   | 10  | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24&max=10) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24&max=10)` |
 
 
 ## Moon Examples
